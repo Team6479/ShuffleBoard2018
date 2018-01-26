@@ -1,0 +1,42 @@
+{
+  "dividerPosition": 0.2997218358831711,
+  "tabPane": [
+    {
+      "title": "SmartDashboard",
+      "autoPopulate": true,
+      "autoPopulatePrefix": "SmartDashboard/",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "1,1": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "3-Axis Accelerometer",
+              "_title": "",
+              "range": "k16G",
+              "showText": true,
+              "numDecimals": 2,
+              "showTickMarks": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "LiveWindow",
+      "autoPopulate": true,
+      "autoPopulatePrefix": "LiveWindow/",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {}
+      }
+    }
+  ]
+}
